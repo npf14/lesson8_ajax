@@ -102,7 +102,7 @@ Filename:   Movie.html
                  var message = 't=' + $('#movieName').val();   
                  $.ajax({
                       type: 'GET',
-                      url: 'https://www.omdbapi.com/?',
+                      url: 'http://www.omdbapi.com/?apikey=a5fb8adf&',
                       data: message             
                 })
                 .done(function(json){
